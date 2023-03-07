@@ -38,8 +38,8 @@ def page_search() -> Response:
     return jsonify({"search_id": search_id})
 
 
-@app.route("/request/<search_id>/<currency>", methods=["GET"])
-def page_request(search_id: str, currency: str) -> Response:
+@app.route("/results/<search_id>/<currency>", methods=["GET"])
+def page_results(search_id: str, currency: str) -> Response:
     """
     A GET route that returns the status of a search given its ID and currency.
 
