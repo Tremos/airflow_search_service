@@ -30,10 +30,10 @@ The application will be launched on `port 9000`. http://127.0.0.1:9000/
 `provider-a` and `provider-b` respectively on port `9001`, `9002`
 
 ### Provider-a
-`POST /search` returns flights' data from response_a.json with 30 seconds delay
+`POST /search` returns flights' data from `response_a.json` with 30 seconds delay
 
 ### Provider-b
-`POST /search` returns flights' data from response_b.json with 60 seconds delay
+`POST /search` returns flights' data from `response_b.json` with 60 seconds delay
 
 ### Airflow
 `POST /search` returns `search_id`
